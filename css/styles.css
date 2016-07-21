@@ -2,12 +2,17 @@ body {
     font-family: 'Lato', sans-serif;
     text-align: center;
 /*    background-color: white;*/
-    background-color: #fafafa;
+/*    background-color: #fafafa;*/
+    background: url(../Images/sky_texture1976.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     
 }
 
 #main-header {
-    background-color: #fafafa;
+/*    background-color: #fafafa;*/
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -39,7 +44,7 @@ nav ul li {
     padding-top: 10px;
     padding-bottom: 10px;
     list-style: none;
-    background-color: white;
+/*    background-color: white;*/
     display: inline-block;
     width: 90%;
     
@@ -54,8 +59,13 @@ nav ul li a {
 a {
     
     text-decoration: none;
-    color: #4a4a4a;
+    color: #00CED1;
     
+}
+
+a:hover {
+    
+    color:cadetblue;
 }
 
 .section {
@@ -76,7 +86,7 @@ a {
 #portfolio {
     
     background-color: white;
-    
+        
 }
 
 
@@ -84,10 +94,11 @@ a {
     
 /*    width: 90%;*/
     margin: 0 auto;
-    color: #7f7f9a;
+    color: white;
     font-size: 1.1em;
     padding-bottom: 1.3em;
 }
+
 
 #portfolio img {
     
@@ -107,6 +118,11 @@ a {
     padding-bottom: 2em;
 }
 
+.header {
+    
+    color:aquamarine;
+}
+
 
 #portfolio p { 
 
@@ -119,6 +135,23 @@ a {
     padding-top: 1.3em;
     
 } 
+
+#skills {
+    
+    background-color: white;
+}
+
+#skills h2 {
+    padding-top: 2em;
+    font-size: 1.2em;
+}
+
+#skills img {
+    
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 50%;
+}
 
 .main-footer {
     
@@ -133,7 +166,7 @@ a {
 
 .main-footer h2 {
     
-    color: #4a4a4a;
+    color:aquamarine;
     font-size: 1em;
     padding-top: 3em;
     padding-bottom: 1em;
@@ -210,7 +243,7 @@ hr {
         
         display: inline;
         font-size: 1em;
-        background-color: #fafafa;
+/*        background-color: #fafafa;*/
         padding-bottom: 0;
         padding-right: 2em;
     }
@@ -269,6 +302,10 @@ hr {
         margin-right: auto;
     } 
     
+    #footer-col-1 {
+        
+        width: 40%;
+    }
     
     #footer-col-2 {
         
@@ -278,6 +315,7 @@ hr {
         
         display: block;
         float: right;
+        width: 60%;
     }
     
     #footer-col-3 ul {
@@ -327,7 +365,7 @@ hr {
     #main-content {
         
         float: left;
-        background-color: #fafafa;
+/*        background-color: #fafafa;*/
     }
 
     #profile-image {
