@@ -12,7 +12,6 @@ body {
 }
 
 #main-header {
-/*    background-color: #fafafa;*/
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -22,17 +21,10 @@ body {
     color: #4a4a4a;
 }
 
-nav {
-    
-/*    margin-left: auto;*/
-}
 
 nav ul {
     
 padding: 0;
-/*    width: 90%;*/
-/*    margin-left: 2em;*/
-    
     
 }
 
@@ -44,7 +36,6 @@ nav ul li {
     padding-top: 10px;
     padding-bottom: 10px;
     list-style: none;
-/*    background-color: white;*/
     display: inline-block;
     width: 90%;
     
@@ -92,7 +83,6 @@ a:hover {
 
 #profile-text p {
     
-/*    width: 90%;*/
     margin: 0 auto;
     color: white;
     font-size: 1.1em;
@@ -222,8 +212,6 @@ hr {
     
     .name {
         
-/*        float: left;*/
-/*        margin-left: 5%;*/
         font-size: 1.5em;
     }
     
@@ -231,8 +219,6 @@ hr {
     nav ul {
         
         display: inline-block;
-/*        float: right;*/
-/*        margin-right: 5%;*/
         padding-top: .5em;
         
     }
@@ -243,17 +229,10 @@ hr {
         
         display: inline;
         font-size: 1em;
-/*        background-color: #fafafa;*/
         padding-bottom: 0;
         padding-right: 2em;
     }
     
-/*
-    nav ul li:nth-child(1) {
-        
-        margin-right: 0;
-    }
-*/
     
     .content-col {
         
@@ -371,14 +350,13 @@ hr {
     #main-content {
         
         float: left;
-/*        background-color: #fafafa;*/
     }
 
     #profile-image {
         
         width: 40%;
         margin-right: 2.5%;
-/*        float: right;*/
+
     }
     
     #profile-image img {
@@ -389,7 +367,7 @@ hr {
     #profile-text {
         
         width: 55%;
-/*        float: left;*/
+
     }
     
     .portfolio-item  { 
