@@ -136,6 +136,14 @@ a:hover {
     font-size: 1.2em;
 }
 
+ #skills p {
+        
+        width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+    
+    }
+
 #skills img {
     
     padding-top: 2em;
@@ -280,6 +288,8 @@ hr {
         
         margin-bottom: 2.5em;
     }
+    
+       
     .footer-text p {
         
         width: 60%;
